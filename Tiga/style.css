@@ -1,0 +1,362 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 360px;
+    position: relative;
+    margin: auto;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* _______________CONTAINER 1 */
+
+
+.container1 {
+    width: 310px;
+    height: 579px;
+    position: absolute;
+    left: 25px;
+    top: 51px;
+    background-color: #fff;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    left: 115px;
+    position: absolute;
+}
+
+/* .kelas_siswa {
+    position: absolute;
+    top: 114px;
+}
+
+.nama_siswa {
+    position: absolute;
+    top: 24px;
+} */
+
+.container1 div input {
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+.namasiswa {
+    position: absolute;
+    top: 53px;
+}
+
+.kelassiswa {
+    position: absolute;
+    top: 143px;
+}
+
+.nilaiipa {
+    top: 223px;
+    position: absolute;
+}
+
+
+
+.nilaimtk {
+    position: absolute;
+    top: 303px;
+}
+
+
+
+.nilaibindo {
+    top: 383px;
+    position: absolute;
+}
+
+.nilaibinggris {
+    position: absolute;
+    top: 463px;
+}
+
+.container1 div h2 {
+    width: 120px;
+    position: absolute;
+    top: -30px;
+    margin: auto;
+
+}
+
+
+
+
+
+
+input {
+    background-color: #9475B240;
+    position: absolute;
+    left: 23px;
+    width: 263px;
+    height: 36px;
+    border: 0px;
+    border-radius: 15px;
+}
+
+
+
+/* .container1 .button :hover {
+    background-color: #9475B2;
+    color: white;
+    position: absolute;
+} */
+
+.button {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 105px;
+    top: 520px;
+    background-color: white;
+    color: #9475B2;
+    border: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button1 {
+    background-color: white;
+    color: #9475B2;
+}
+
+.button1:hover {
+    background-color: #9475B2;
+    color: white;
+}
+
+
+.gelap {
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* _______________CONTAINER 2 */
+
+
+.nama_absen {
+    /* width: 241px;
+    height: 95px; */
+    grid-area: nama;
+}
+
+/* .kehadiran {
+    width: 50px;
+    height: 45px;
+} */
+
+.item {
+    display: flex;
+    justify-content: center;
+}
+
+.class {
+    /* width: 241px;
+    height: 45px; */
+    grid-area: kelas;
+}
+
+.izin {
+    grid-area: izin;
+
+}
+
+.alfa {
+    grid-area: alfa;
+}
+
+.hadir {
+    grid-area: hadir;
+}
+
+.container2 {
+    width: 300px;
+    height: 145px;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns:
+        241px 50px;
+    grid-template-rows: 45px 45px 45px;
+
+    grid-template-areas:
+        'nama izin'
+        'nama alfa'
+        'kelas hadir'
+    ;
+}
+
+.container2 div h3 {
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* _______________CONTAINER 3 */
+
+
+.container3 {
+    margin-top: 20px;
+    width: 300px;
+    height: 163px;
+
+    /* Grid */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "Mtk Bindo Binggris Ipa"
+        "NMTK NBINDO NBINGGRIS NIPA"
+        "rata rata rata2 rata2"
+    ;
+}
+
+.rapotmtk {
+    grid-area: Mtk;
+}
+
+.nilairapotmtk {
+    grid-area: NMTK;
+}
+
+.rapotbindo {
+    grid-area: Bindo;
+}
+
+.nilairapotbindo {
+    grid-area: NBINDO;
+}
+
+.rapotbinggris {
+    grid-area: Binggris;
+}
+
+.nilairapotbinggris {
+    grid-area: NBINGGRIS;
+
+}
+
+.rapotipa {
+    grid-area: Ipa;
+}
+
+.nilairapotipa {
+    grid-area: NIPA;
+}
+
+.nilairatarata {
+    grid-area: rata2;
+}
+
+.ratarata {
+    grid-area: rata;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+.container3 h4 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.ratarata,
+.nilairatarata {
+    background-color: #9475B240;
+    padding-top: 10px;
+}
+
+.ratarata {
+    border-radius: 0px 0px 0px 15px;
+}
+
+.nilairatarata {
+    border-radius: 0px 0px 15px 0px;
+}
+
+ul {
+    position: absolute;
+    top: 666px;
+    left: 29px;
+    padding-bottom: 100px;
+}
+
+li {
+    margin-top: 30px;
+}
+
+.yellow {
+    background-color: rgb(255, 255, 169);
+}
+
+.green {
+    background-color: rgb(165, 237, 165);
+}
+
+.red {
+    background-color: rgb(255, 166, 166);
+}

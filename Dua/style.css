@@ -1,0 +1,186 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 360px;
+    height: 800px;
+    position: relative;
+}
+
+li {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.container1 {
+    width: 310px;
+    height: 260px;
+    position: absolute;
+    left: 25px;
+    top: 51px;
+    background-color: #fff;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    left: 115px;
+    position: absolute;
+}
+
+.kelas_siswa {
+    position: absolute;
+    top: 114px;
+}
+
+.nama_siswa {
+    position: absolute;
+    top: 24px;
+}
+
+.container1 div input {
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+input {
+    background-color: #9475B240;
+    position: absolute;
+    left: 23px;
+    width: 263px;
+    height: 36px;
+    border: 0px;
+    border-radius: 15px;
+}
+
+.nama {
+    position: absolute;
+    top: 53px;
+}
+
+.kelas {
+    position: absolute;
+    top: 143px;
+}
+
+/* .container1 .button :hover {
+    background-color: #9475B2;
+    color: white;
+    position: absolute;
+} */
+
+.button {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 105px;
+    top: 208px;
+    background-color: white;
+    color: #9475B2;
+    border: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button1 {
+    background-color: white;
+    color: #9475B2;
+}
+
+.button1:hover {
+    background-color: #9475B2;
+    color: white;
+}
+
+
+.gelap {
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.nama_absen {
+    /* width: 241px;
+    height: 95px; */
+    grid-area: nama;
+}
+
+/* .kehadiran {
+    width: 50px;
+    height: 45px;
+} */
+
+/* .item {
+    display: flex;
+    justify-content: center;
+} */
+
+.class {
+    /* width: 241px;
+    height: 45px; */
+    grid-area: kelas;
+}
+
+.izin {
+    grid-area: izin;
+
+}
+
+.alfa {
+    grid-area: alfa;
+}
+
+.hadir {
+    grid-area: hadir;
+}
+
+.container2 {
+    width: 300px;
+    height: 145px;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns:
+        241px 50px;
+    grid-template-rows: 45px 45px 45px;
+
+    grid-template-areas:
+        'nama izin'
+        'nama alfa'
+        'kelas hadir'
+    ;
+}
+
+h3 {
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+body {
+    margin: auto;
+}
+
+ul {
+    position: absolute;
+    top: 347px;
+    left: 29px;
+}
+
+.yellow {
+    background-color: rgb(255, 255, 169);
+}
+
+.green {
+    background-color: rgb(165, 237, 165);
+}
+
+.red {
+    background-color: rgb(255, 166, 166);
+}

@@ -1,0 +1,167 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    display: block;
+}
+
+body {
+    width: 360px;
+    height: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.jack {
+    font-size: 18px;
+    position: absolute;
+    left: 27px;
+    top: 66px;
+
+}
+
+.nilai {
+    font-size: 24px;
+    width: 213px;
+    height: 79px;
+    position: absolute;
+    left: 27px;
+    top: 123px;
+}
+
+.poto img {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 281px;
+    top: 47px;
+    border-radius: 15px;
+}
+
+.container2 {
+    position: absolute;
+    width: 311px;
+    height: 389px;
+    left: 25px;
+    top: 204px;
+    background-color: #fff;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.container2 a img {
+    width: 60px;
+    height: 60px;
+}
+
+h1 {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.65);
+
+}
+
+.kotak-luar {
+    width: 105px;
+    height: 121px;
+    border-radius: 15px;
+    background-color: #9475B240;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 a {
+    width: 105px;
+    height: 121px;
+}
+
+.absen {
+    position: absolute;
+    left: 31px;
+    top: 23px;
+}
+
+.absen:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.rapot {
+    position: absolute;
+    top: 23px;
+    left: 177px;
+}
+
+.rapot:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.guru {
+    position: absolute;
+    top: 158px;
+    left: 103px;
+}
+
+.guru:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.footer a img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 11px;
+}
+
+.home {
+    position: absolute;
+    left: 52px;
+}
+
+
+
+.dokumen {
+    position: absolute;
+    left: 130px;
+}
+
+.akun {
+    position: absolute;
+    left: 208px;
+}
+
+
+.logout {
+    position: absolute;
+    left: 286px;
+}
+
+.footer {
+    position: absolute;
+    width: 360px;
+    height: 50px;
+    left: 0;
+    top: 750px;
+    background-color: #fff;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+}
+
+.hiasan {
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    top: 469px;
+    left: 128px;
+}
